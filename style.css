@@ -27,7 +27,7 @@ h3 {
 main {
     font-family: Poppins, sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top ,rgb(87, 184, 197), rgb(43, 167, 184));
+    background: linear-gradient(to right top ,rgb(204, 206, 108), rgb(175, 165, 25));
 
     display: flex;
     justify-content: center;
@@ -63,12 +63,12 @@ main {
 }
 
 .circle1 {
-    bottom:5%;
+    top:5%;
     left:10%;
 }
 
 .circle2 {
-    top: 5%;
+    bottom: 5%;
     right: 15%;
 }
 
@@ -89,13 +89,24 @@ main {
 
 .link {
     display: flex;
-    margin: 2rem 0rem;
-    padding: 1rem 5rem;
+    margin: 2rem 1rem;
     align-items: center;
+    text-decoration: none;
 }
 
 .link h2 {
     padding: 0rem 2rem;
+    transition: 0.3s;
+}
+
+
+.link h2:hover {
+    color: burlywood;
+}
+
+.link img {
+    width: 72px;
+    height: 72px;
 }
 
 
@@ -104,7 +115,7 @@ main {
 }
 
 .pro {
-    background: linear-gradient(to right top ,rgb(87, 184, 197), rgb(43, 167, 184));
+    background: linear-gradient(to right top ,rgb(204, 206, 108), rgb(175, 165, 25));
     border-radius: 2rem;
     color: white;
     padding: 1rem;
@@ -113,7 +124,7 @@ main {
 
 .pro img {
     position: absolute;
-    top: -10%;
+    top: 5%;
     right: 10%;
 }
 
@@ -158,7 +169,7 @@ main {
 }
 
 .progress {
-    background: linear-gradient(to right top ,rgb(87, 184, 197), rgb(43, 167, 184));
+    background: linear-gradient(to right top ,rgb(204, 206, 108), rgb(175, 165, 25));
     width: 100%;
     height: 25%;
     border-radius: 1rem;
@@ -172,7 +183,7 @@ main {
     height: 100%;
     background: rgba(236, 236 ,236);
     position: absolute;
-    left: 60%;
+    left: 70%;
 }
 
 .card-info {
@@ -183,7 +194,7 @@ main {
 
 .percentage {
     font-weight: bold;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    background: linear-gradient(to right top ,rgb(204, 206, 108), rgb(175, 165, 25));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
