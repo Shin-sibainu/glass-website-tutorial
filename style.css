@@ -4,7 +4,28 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 3rem;
+    opacity: 0.7;
+    font-weight: 600;
+    color: #426696;
+}
+
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+    opacity: 0.7;
+    font-weight: 600;
+    color: #426696;
+}
+
 main {
+    font-family: Poppins, sans-serif;
     min-height: 100vh;
     background: linear-gradient(to right top ,rgb(87, 184, 197), rgb(43, 167, 184));
 
@@ -25,6 +46,7 @@ main {
     border-radius: 2rem;
     backdrop-filter: blur(2rem);
     z-index: 2;
+    display: flex;
 }
 
 .circle1, .circle2 {
@@ -48,4 +70,53 @@ main {
 .circle2 {
     top: 5%;
     right: 15%;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 2rem;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+}
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 2rem;
+}
+
+
+.games {
+    flex: 2;
+}
+
+.pro {
+    background: linear-gradient(to right top ,rgb(87, 184, 197), rgb(43, 167, 184));
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+
+.pro img {
+    position: absolute;
+    top: -10%;
+    right: 10%;
+}
+
+.pro h2 {
+    width: 40%;
 }
